@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send({ hi: 'there Matt Owen!' });
+    res.send({ hi: 'there Max and Theo!' });
 });
 
 //app.get('/tom',(req, res) => {
@@ -16,4 +16,4 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT);
 
 
-// localhost:5000 test
+// localhost:5000
